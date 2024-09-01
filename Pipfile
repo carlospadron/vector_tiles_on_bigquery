@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 google-cloud-bigquery = "*"
+apache-beam = {extras = ["gcp"]}
 
 [dev-packages]
 ipykernel = "*"
